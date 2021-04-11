@@ -6,8 +6,7 @@ import '../Style/Blog.css';
 
 function Blogs() {
     const searchInput = useSelector(selectUserInput);
-    const blog__url = `https://gnews.io/api/v4/search?q=${searchInput}&token=
-    e67499bcf4fef1b384fb65e048eef05a`;
+    const blog__url = `https://gnews.io/api/v4/search?q=${searchInput}&token=e67499bcf4fef1b384fb65e048eef05a`;
 
     const dispatch = useDispatch();
     const [blogs, setBlogs] = useState ();
